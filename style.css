@@ -1,0 +1,23 @@
+body{
+    overflow: hidden;
+}
+.canvas{
+    height: 800px;
+    width: 650px;
+    background: lightblue;
+
+}
+.ground{
+    height:150px;
+    width:650px;
+    background:darkgreen;
+    position: absolute;
+    top: 800px;
+}
+
+.bird{
+    height: 30px;
+    width: 50px;
+    background: yellow;
+    position: absolute;
+}
