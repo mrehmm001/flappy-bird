@@ -16,8 +16,9 @@ body{
 }
 
 .bird{
-    height: 30px;
-    width: 50px;
-    background: yellow;
+    height: 60px;
+    width: 100px;
     position: absolute;
+    background-image: url("images/bird.png");
+    background-size: cover;
 }
