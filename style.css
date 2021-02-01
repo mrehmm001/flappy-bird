@@ -5,6 +5,7 @@ body{
     height: 800px;
     width: 650px;
     background: lightblue;
+    /* overflow: hidden; */
 
 }
 .ground{
@@ -13,6 +14,7 @@ body{
     background:darkgreen;
     position: absolute;
     top: 800px;
+    z-index: 2;
 }
 
 .bird{
@@ -21,4 +23,12 @@ body{
     position: absolute;
     background-image: url("images/bird.png");
     background-size: cover;
+}
+
+
+.obstacle{
+    height: 500px;
+    width: 60px;
+    background: green;
+    position: absolute   ;
 }
